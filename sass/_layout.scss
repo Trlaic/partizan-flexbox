@@ -1,0 +1,36 @@
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    min-height: 80rem;
+    background-color: #fff;
+    box-shadow: var(--shadow-dark);
+}
+.header{
+    font-size: 1.6rem;
+    background-color: #fff;
+    height: 7rem;
+    border-bottom: var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__photo{
+        height: 5rem;
+        margin-left: 4.5rem;
+    }
+    &__logo{
+        height: 100%;
+        width: auto;
+    }
+}
+.main{
+    display: flex;
+}
+
+.content{
+    flex: 0 0 82%;
+}
+.booking{
+    font-size: 1.6rem;
+    padding: 3rem;
+    background-color: #fff;
+}

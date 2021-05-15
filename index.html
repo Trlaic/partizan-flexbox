@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sass/main.css">
+    <title>Partizan</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__photo">
+                <img src="img/logo.png" alt="partizan-logo" class="header__logo">
+            </div>
+            <form action="#" class="search">
+                <input type="text" class="search__text" placeholder="Search term" id="search__text">
+                <label for="search__text" class="search__label">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </label>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">23</span>
+                </div>
+                <figure class="user-nav__img-box">
+                    <img src="img/user.jpg" alt="user-nav photo" class="user-nav__img">
+                    <figcaption class="user-nav__img-text">Igor</figcaption>
+                </figure>
+            </nav>
+        </header>
+        <main class="main">
+            <nav class="sidebar">
+                <ul class="sidebar__list">
+                    <a href="#" class="sidebar__link">
+                        <li class="sidebar__item sidebar__active-item">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/sprite.svg#icon-functions"></use>
+                            </svg>
+                            <span class="sidebar__span">Overview</span>
+                        </li>
+                    </a>
+                    <a href="#" class="sidebar__link">
+                        <li class="sidebar__item">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/sprite.svg#icon-collections"></use>
+                            </svg>
+                            <span class="sidebar__span">Gallery</span>
+                        </li>
+                    </a>
+                    <a href="#" class="sidebar__link">
+                        <li class="sidebar__item">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/sprite.svg#icon-trophy"></use>
+                            </svg>
+                            <span class="sidebar__span">Trophies</span>
+                        </li>
+                    </a>
+                </ul>
+                <p class="paragraph">&copy; 2021 by dps. All rights reserved.</p>
+            </nav>
+            <section class="content">
+                <div class="img-ad">
+                    <img src="img/picture-1.jpg" alt="img-1" class="img-ad__image">
+                    <img src="img/picture-2.jfif" alt="img-2" class="img-ad__image">
+                    <img src="img/picture-3.jpg" alt="img-3" class="img-ad__image">
+                </div>
+                <div class="rating">
+                    <h1 class="heading-primary">Stadium JNA</h1>
+                    <div class="rating__stars">
+                        <svg class="rating__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="rating__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="rating__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="rating__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="rating__icon">
+                            <use xlink:href="img/sprite.svg#icon-star-half"></use>
+                        </svg>
+                    </div>
+                    <svg class="rating__icon">
+                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                    </svg>
+                    <button class="btn-pulse">Belgrade, Serbia</button>
+                    <div class="rating__grade-box">
+                        <span class="rating__grade">8.7</span>
+                        <span class="rating__votes">32805 votes</span>
+                    </div>
+                </div>
+                <div class="central-area">
+                    <div class="central-area__left">
+                        <p class="paragraph--2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, 
+                             ut corporis incidunt deserunt quae architecto voluptate.
+                        </p>
+                        <p class="paragraph--2">Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus,
+                                 inventore iure aliquid aliquam.
+                        </p>
+                        <ul class="central-area__list">
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                            <li class="central-area__item">Lorem ipsum dolor</li>
+                        </ul>
+                        <div class="central-area__friends">
+                            <div class="central-area__text">Lucy and 3 other friends recommend this club.</div>
+                            <img src="img/user-1.jpg" alt="user-1" class="central-area__image">
+                            <img src="img/user-2.jpg" alt="user-2" class="central-area__image">
+                            <img src="img/user-3.jpg" alt="user-3" class="central-area__image">
+                            <img src="img/user-4.jpg" alt="user-4" class="central-area__image">
+                        </div>
+                    </div>
+                    <div class="central-area__right">
+                        <div class="review">
+                            <p class="paragraph--3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                 Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                            </p>
+                            <div class="review__user-box">
+                                <img src="img/user-5.jpg" alt="" class="review__user-img">
+                                <div class="review__box">
+                                    <div class="review__name">Nick Smith</div>
+                                    <div class="review__date">Feb 23rd, 2017</div>
+                                </div>
+                                <div class="review__grade">7.8</div>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <p class="paragraph--3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                 Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                            </p>
+                            <div class="review__user-box">
+                                <img src="img/user-6.jpg" alt="" class="review__user-img">
+                                <div class="review__box">
+                                    <div class="review__name">Mary Thomas</div>
+                                    <div class="review__date">Sep 13th, 2017</div>
+                                </div>
+                                <div class="review__grade">9.3</div>
+                            </div>
+                        </div>
+                        <button class="btn-pulse">Show all <span class="btn-pulse__span">&rarr;</span></button>
+                    </div>
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good news! We have 4 free selected rooms for your selected dates
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book now</span>
+                        <span class="btn__invisible">Only 4 rooms left</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+</body>
+</html>
